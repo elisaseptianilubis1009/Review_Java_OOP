@@ -5,17 +5,19 @@
 package review_java_oop.belajar.EnumClass;
 
 public enum Level {
-    
-    LOW,
-    MEDIUM,
-    HIGH;
-    
+
+    LOW("rendah"),
+    MEDIUM("pertengahan"),
+    HIGH("level tinggi");
+
     private String description;
-    
+
+    private Level(String description) {
+        this.description = description;
+    }
+
     public String getDescription() {
         return description;
     }
-    
-    
-    
+
 }

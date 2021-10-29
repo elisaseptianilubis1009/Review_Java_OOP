@@ -10,7 +10,7 @@ public class EnumApp {
         exercise.setJenisKelamin(JenisKelamin.WOMEN);
         
         System.out.println("Nama :"+exercise.getName());
-        System.out.println("Level :"+exercise.getLevel());
+        System.out.println("Level :"+exercise.getLevel()+" Descriprion :"+exercise.getLevel().getDescription());
         System.out.println("Jenis Kelamin :"+exercise.getJenisKelamin());
     }
     
