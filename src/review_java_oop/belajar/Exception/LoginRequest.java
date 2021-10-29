@@ -13,11 +13,15 @@ public class LoginRequest {
 
     private String username;
     private String password;
+    private int umur;
 
-    public LoginRequest(String username, String password) {
+    public LoginRequest(String username, String password, int umur) {
         this.username = username;
         this.password = password;
+        this.umur = umur;
     }
+
+    
 
     public String getPassword() {
         return password;
@@ -35,4 +39,13 @@ public class LoginRequest {
         this.username = username;
     }
 
+    public int getUmur() {
+        return umur;
+    }
+
+    public void setUmur(int umur) {
+        this.umur = umur;
+    }
+
+    
 }

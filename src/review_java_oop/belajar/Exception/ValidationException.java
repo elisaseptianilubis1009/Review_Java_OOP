@@ -3,9 +3,9 @@
 package review_java_oop.belajar.Exception;
 
 
-public class Exception extends Throwable{
+public class ValidationException extends Throwable{
     
-    public Exception (String message){
+    public ValidationException (String message){
         super(message);
     }
 }
