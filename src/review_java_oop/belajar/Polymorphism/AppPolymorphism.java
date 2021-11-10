@@ -5,6 +5,7 @@ package review_java_oop.belajar.Polymorphism;
 public class AppPolymorphism {
     public static void main(String[] args) {
         Employee employee = new Employee("Elisa");
+        employee.setAlamat("Padangsidimpuan");
         employee.sayHello(new Employee("Elisa"));
         
         employee=new Manager("Julia");
@@ -12,6 +13,8 @@ public class AppPolymorphism {
         
         employee=new VicePresident("Ridwan");
         employee.sayHello(new VicePresident("Ridwa"));
+        
+        System.out.println(employee);
     }
     
 }
