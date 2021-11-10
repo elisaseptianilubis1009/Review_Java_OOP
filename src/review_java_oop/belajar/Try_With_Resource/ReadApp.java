@@ -22,6 +22,8 @@ public class ReadApp {
                 System.out.println(line);
             }
             
+            System.out.println("");
+            
         } catch (Exception e) {
             System.out.println("Error Membaca File "+e.getMessage());
         }finally{
